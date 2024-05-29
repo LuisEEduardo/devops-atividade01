@@ -1,6 +1,7 @@
-name: CI automático
+name: CI manual
 
-on: [push]
+on: 
+  workflow_dispatch:
 
 jobs:
   build:
